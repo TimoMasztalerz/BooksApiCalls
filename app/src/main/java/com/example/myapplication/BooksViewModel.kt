@@ -9,7 +9,7 @@ class BooksViewModel : ViewModel() {
     private val repository = ApiRepository(BookApi)
 
     val books = repository.books
-//Research: was ist ViewmodelScope?
+//Research: was ist falsch im ViewmodelScope?
     fun loadBooks() {
         viewModelScope.launch(Dispatchers.IO) {
             repository.loadBooks()
