@@ -9,7 +9,7 @@ import androidx.fragment.app.viewModels
 import com.example.myapplication.databinding.FragmentBooksBinding
 
 
-class JokesFragment : Fragment() {
+class BooksFragment : Fragment() {
 
 //Problem
     private val viewModel: BooksViewModel by viewModels()
